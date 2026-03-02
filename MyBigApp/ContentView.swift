@@ -17,7 +17,7 @@ struct ContentView: View {
             Rectangle()
                 .aspectRatio(2.0/3.0, contentMode: .fit)
                 .containerRelativeFrame(.horizontal, count: 2, spacing:0)
-                .containerRelativeFrame(.horizontal, alignment: .centerLastTextBaseline)
+                .containerRelativeFrame(.horizontal, alignment: .topLeading)
                 Text("Star Rating")
                 Text("Review")
             Text("A timeless epic with more relevance today than ever.")
