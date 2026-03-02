@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        Text("\(Image(systemName: "chevron.backward"))Reviews")
+        
         VStack {
             Rectangle()
                 .aspectRatio(1.0/3.0, contentMode: .fit)
