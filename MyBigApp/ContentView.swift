@@ -16,7 +16,7 @@ struct ContentView: View {
         VStack {
             Rectangle()
                 .aspectRatio(2.0/3.0, contentMode: .fit)
-                .containerRelativeFrame(.vertical, count: 2, spacing:0)
+                .containerRelativeFrame(.horizontal, count: 2, spacing:0)
                 .containerRelativeFrame(.horizontal, alignment: .topLeading)
                 Text("Star Rating")
                 Text("Review")
@@ -25,6 +25,7 @@ struct ContentView: View {
         .padding()
         }
     }
+
 
 #Preview {
     ContentView()
