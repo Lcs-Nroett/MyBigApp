@@ -10,11 +10,11 @@ import SwiftUI
 struct MyBigApppt2: View {
     var body: some View {
         Rectangle()
-            .frame(width: 100, height: 200)
+            .frame(width: 100, height: 100)
             .containerRelativeFrame(.horizontal, alignment: .topLeading)
         
         Text("Spring")
-
+        
         Text("In spring, all the flowers take flight,")
         
         Text("Painting fields with a colourful sight.")
@@ -23,15 +23,21 @@ struct MyBigApppt2: View {
         
         Text("Come blossoms and bees,")
         
-        Rectangle()
-            .frame(width: 100, height: 200)
-            .containerRelativeFrame(.horizontal, alignment: .topLeading)
-        
-        
+        Text("And the world wakes to warmth and delight.")
       
-    }
-}
+        Spacer()
+        
+        Rectangle()
+            .frame(width: 100, height: 100)
+            .containerRelativeFrame(.horizontal, alignment: .topLeading)
+                
+     Text("Summer")
+        Text("The sumer sun blazes so bright,")
+            }
+        }
+        
+        #Preview {
+            MyBigApppt2()
+        }
+        
 
-#Preview {
-    MyBigApppt2()
-}
