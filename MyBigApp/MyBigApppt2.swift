@@ -15,24 +15,24 @@ struct MyBigApppt2: View {
         
         Text("Spring")
         
-        Text("In spring, all the flowers take flight,")
-        
-        Text("Painting fields with a colourful sight.")
-        
-        Text("With each gentle breeze,")
-        
-        Text("Come blossoms and bees,")
-        
-        Text("And the world wakes to warmth and delight.")
-      
+        Text("In spring, all the flowers take flight,Painting fields with a colourful sight.With each gentle breeze,Come blossoms and bees,And the world wakes to warmth and delight.")
+            .multilineTextAlignment(.leading)
         Spacer()
         
         Rectangle()
             .frame(width: 100, height: 100)
             .containerRelativeFrame(.horizontal, alignment: .topLeading)
-                
      Text("Summer")
-        Text("The sumer sun blazes so bright,")
+        Text("The sumer sun blazes so bright, Long days filled with laughter and light. With beaches and sand, And ice cream in hand, Every evening feels magic and right")
+            .multilineTextAlignment(.leading)
+        
+        Spacer()
+        
+        
+        
+        
+        
+        
             }
         }
         
