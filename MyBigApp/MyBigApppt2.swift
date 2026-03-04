@@ -10,8 +10,13 @@ import SwiftUI
 struct MyBigApppt2: View {
     var body: some View {
         
+        NavigationStack {
+            Text("The Seasons")
+                .navigationTitle("The Seasons")
+              
+               
+        }
         HStack{
-            
         
                 Rectangle()
                     .frame(width: 100, height: 100)
@@ -55,7 +60,6 @@ struct MyBigApppt2: View {
                         .bold()
                     Text("In winter, the world turns to white, A frosty, enchanting delight.")}
             }
-            
             
         }
         
