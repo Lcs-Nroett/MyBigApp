@@ -28,9 +28,14 @@ struct MyBigApppt2: View {
         
         Spacer()
         
+        Rectangle()
+            .frame(width: 100, height: 100)
+            .containerRelativeFrame(.horizontal, alignment: .topLeading)
         
         
-        
+        Text("Fall")
+            Text("The autumn brings leaves turning gold,")
+
         
         
             }
@@ -40,4 +45,3 @@ struct MyBigApppt2: View {
             MyBigApppt2()
         }
         
-
