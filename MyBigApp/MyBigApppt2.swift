@@ -17,6 +17,7 @@ struct MyBigApppt2: View {
                     .frame(width: 100, height: 100)
             VStack{
                 Text("Spring")
+                    .bold()
                 
                 
                 Text("In spring, all the flowers take flight,Painting fields with a colourful sight.With each gentle breeze,Come blossoms and bees,And the world wakes to warmth and delight.")
@@ -29,6 +30,7 @@ struct MyBigApppt2: View {
                 .frame(width: 100, height: 100)
             VStack{
                 Text("Summer")
+                    .bold()
                 
                 Text("The sumer sun blazes so bright, Long days filled with laughter and light. With beaches and sand, And ice cream in hand, Every evening feels magic and right")
                     .multilineTextAlignment(.leading)
@@ -40,6 +42,7 @@ struct MyBigApppt2: View {
                 .frame(width: 100, height: 100)
             VStack{
                 Text("Fall")
+                    .bold()
                 Text("The autumn brings leaves turning gold, A string that is lovely and bold. The crisp, cool air sings, Of sweaters and swings, And tales by the fire retold")
             }
         }
@@ -49,6 +52,7 @@ struct MyBigApppt2: View {
                 Rectangle()
                     .frame(width: 100, height: 100)
                 VStack{   Text("Winter")
+                        .bold()
                     Text("In winter, the world turns to white, A frosty, enchanting delight.")}
             }
             
